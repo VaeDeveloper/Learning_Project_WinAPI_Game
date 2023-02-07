@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{0d12d7d1-0b44-4e11-8d40-384a198bfd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{b24a35de-62d5-4d1d-813e-f6f217c3ed02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Ball">
+      <UniqueIdentifier>{4b1c5c65-9c21-4b55-af47-a56eed5aa735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Ball\Ball">
+      <UniqueIdentifier>{6c14793c-3234-4996-8754-a4855ea913d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Ball\Ball_Set">
+      <UniqueIdentifier>{94983176-7f4e-43c3-a07c-29cf57be17a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Laser_Beam">
+      <UniqueIdentifier>{f6f22e11-378f-4bfb-98cf-84e96b950d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Laser_Beam\Laser_Beam">
+      <UniqueIdentifier>{13bc5cd3-2886-4b60-b0c6-06f7143c7503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Laser_Beam\Laser_Beam_Set">
+      <UniqueIdentifier>{5b6bb32e-f3ad-4d34-8012-88196dde0585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Platform">
+      <UniqueIdentifier>{baa6d449-467f-43aa-90cd-5e70ebb4486b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Platform\Platform">
+      <UniqueIdentifier>{9ff61a79-88c6-46d8-82c7-55c53a2bf2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Platform\Platform_State">
+      <UniqueIdentifier>{06ce32a6-5f5e-4f1b-b1c0-5c1ef809c5b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Platform\Platform_Laser">
+      <UniqueIdentifier>{0a59661a-e20d-414f-aec4-6e3ec2689201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Platform\Platform_Glue">
+      <UniqueIdentifier>{97c166aa-9bbb-417d-98b1-dedeb8023606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Platform\Platform_Expanding">
+      <UniqueIdentifier>{9b2fbac9-57de-4dc8-8006-b83dfc00ec43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Tools">
+      <UniqueIdentifier>{1904942c-5da4-4a24-92be-e616e9172138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Tools\Config">
+      <UniqueIdentifier>{d47e0b6f-9d2a-4b7b-b735-bcd2c5b78711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Border">
+      <UniqueIdentifier>{afa0c1ba-bfcc-4bed-8d29-d85b3e6fceb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Border\Gate">
+      <UniqueIdentifier>{81cb72ef-e899-4ccf-9179-f7dfdeb580a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Border\Border">
+      <UniqueIdentifier>{fa44af56-897d-4df7-9c5a-02d5ce74f94d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Tools\Common">
+      <UniqueIdentifier>{d3fdddda-1638-403a-a83a-5a99f6450c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Monsters">
+      <UniqueIdentifier>{6097a386-ed79-48a2-aaa2-fb95fe334e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Monsters\Monster_Set">
+      <UniqueIdentifier>{e214f265-9ef9-4021-ae92-d53a55a5e1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Monsters\Explosive_Ball">
+      <UniqueIdentifier>{fe3e5fbb-f3df-445a-b60d-4fe7aca9392b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Monsters\Monster">
+      <UniqueIdentifier>{1369c83a-f604-4a33-8e91-b7882065008d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Screen">
+      <UniqueIdentifier>{5b9b0ebb-ef15-4fb9-8b43-6bc80183261a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Screen\Info_Panel">
+      <UniqueIdentifier>{365fdf5f-5d51-4197-9a26-d1d74b0aa988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Screen\Falling_Letter">
+      <UniqueIdentifier>{e6c373f4-6ba4-4f46-a03b-76c7160d1a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Screen\Active_Brick">
+      <UniqueIdentifier>{63e4d4d8-864f-4cdb-9635-a2888618aef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Screen\Indicator">
+      <UniqueIdentifier>{b8d3fa39-5248-4a39-b6b4-e2056fc2a3b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Mop">
+      <UniqueIdentifier>{9a877f8a-3e99-4a65-91a3-872d1460bd01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Mop\Mop">
+      <UniqueIdentifier>{edc298b1-d60b-4774-8072-fb0d5246525a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Mop\Mop_Indicator">
+      <UniqueIdentifier>{0c9b688c-9159-456b-9c06-de20575f40d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Mop\Mop_Cylinder">
+      <UniqueIdentifier>{a37cb26b-f673-40ce-8640-b68569ccb45a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Monsters\Explosion">
+      <UniqueIdentifier>{eb424d1e-02eb-4dd4-9aa8-e3bb669f1fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Screen\Label">
+      <UniqueIdentifier>{306ebe55-bfb6-46de-87da-e095ff1f0d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Screen\Final_Letter">
+      <UniqueIdentifier>{9d1eeac4-4e46-47c5-b5af-a97abe4f1820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Screen\Game_Title">
+      <UniqueIdentifier>{cf112f26-9561-4067-aeb3-d6cc7377850a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Level">
+      <UniqueIdentifier>{dd8c7b52-4d8b-45bf-b0f8-3430a0c9693f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Level\Level">
+      <UniqueIdentifier>{af0f142b-c080-4e29-8c92-82778d40dffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Level\Level_Data">
+      <UniqueIdentifier>{a9f781e6-ef9a-41cd-882f-479a3c278b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="#Level\Level_Title">
+      <UniqueIdentifier>{791fb3e9-e028-4f78-899d-fb0ef04ef031}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Border.h">
+      <Filter>#Border\Border</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>#Level\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>#Tools\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>#Ball\Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>#Platform\Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="Active_Brick.h">
+      <Filter>#Screen\Active_Brick</Filter>
+    </ClInclude>
+    <ClInclude Include="Falling_Letter.h">
+      <Filter>#Screen\Falling_Letter</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball_Set.h">
+      <Filter>#Ball\Ball_Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser_Beam.h">
+      <Filter>#Laser_Beam\Laser_Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>#Tools\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Laser_Beam_Set.h">
+      <Filter>#Laser_Beam\Laser_Beam_Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform_State.h">
+      <Filter>#Platform\Platform_State</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform_Glue.h">
+      <Filter>#Platform\Platform_Glue</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform_Expanding.h">
+      <Filter>#Platform\Platform_Expanding</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform_Laser.h">
+      <Filter>#Platform\Platform_Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="Gate.h">
+      <Filter>#Border\Gate</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Set.h">
+      <Filter>#Monsters\Monster_Set</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosive_Ball.h">
+      <Filter>#Monsters\Explosive_Ball</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>#Monsters\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Info_Panel.h">
+      <Filter>#Screen\Info_Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="Indicator.h">
+      <Filter>#Screen\Indicator</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_Data.h">
+      <Filter>#Level\Level_Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Mop.h">
+      <Filter>#Mop\Mop</Filter>
+    </ClInclude>
+    <ClInclude Include="Mop_Indicator.h">
+      <Filter>#Mop\Mop_Indicator</Filter>
+    </ClInclude>
+    <ClInclude Include="Mop_Cylinder.h">
+      <Filter>#Mop\Mop_Cylinder</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>#Monsters\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_Title.h">
+      <Filter>#Level\Level_Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>#Screen\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="Final_Letter.h">
+      <Filter>#Screen\Final_Letter</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Title.h">
+      <Filter>#Screen\Game_Title</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Popcorn.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Popcorn.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Border.cpp">
+      <Filter>#Border\Border</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>#Level\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>#Tools\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>#Ball\Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>#Platform\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="Active_Brick.cpp">
+      <Filter>#Screen\Active_Brick</Filter>
+    </ClCompile>
+    <ClCompile Include="Falling_Letter.cpp">
+      <Filter>#Screen\Falling_Letter</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball_Set.cpp">
+      <Filter>#Ball\Ball_Set</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser_Beam.cpp">
+      <Filter>#Laser_Beam\Laser_Beam</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>#Tools\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Laser_Beam_Set.cpp">
+      <Filter>#Laser_Beam\Laser_Beam_Set</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform_State.cpp">
+      <Filter>#Platform\Platform_State</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform_Glue.cpp">
+      <Filter>#Platform\Platform_Glue</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform_Expanding.cpp">
+      <Filter>#Platform\Platform_Expanding</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform_Laser.cpp">
+      <Filter>#Platform\Platform_Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="Gate.cpp">
+      <Filter>#Border\Gate</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Set.cpp">
+      <Filter>#Monsters\Monster_Set</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosive_Ball.cpp">
+      <Filter>#Monsters\Explosive_Ball</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>#Monsters\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Info_Panel.cpp">
+      <Filter>#Screen\Info_Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="Indicator.cpp">
+      <Filter>#Screen\Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_Data.cpp">
+      <Filter>#Level\Level_Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Mop.cpp">
+      <Filter>#Mop\Mop</Filter>
+    </ClCompile>
+    <ClCompile Include="Mop_Indicator.cpp">
+      <Filter>#Mop\Mop_Indicator</Filter>
+    </ClCompile>
+    <ClCompile Include="Mop_Cylinder.cpp">
+      <Filter>#Mop\Mop_Cylinder</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>#Monsters\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_Title.cpp">
+      <Filter>#Level\Level_Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>#Screen\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="Final_Letter.cpp">
+      <Filter>#Screen\Final_Letter</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Title.cpp">
+      <Filter>#Screen\Game_Title</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
